@@ -43,7 +43,7 @@ const LearnMore = () => {
 
     <section className='bg-[#F0F0F0] py-20'>
       <Container>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
           <div className="relative after:absolute after:content-[''] after:h-full after:w-full after:bg-[rgba(0,0,0,0.6)] after:top-0 after:left-0">
             <img src={img1} alt="" className='w-full h-full' />
             <div className='absolute top-[30%] left-[30%] -translate-x-10 md:-translate-x-8 -translate-y-10 md:-translate-y-14 z-[2]'>
