@@ -60,7 +60,7 @@ const LearnMore = () => {
             </div>
           </div>
 
-          <div className="block sm:hidden md:block relative after:absolute after:content-[''] after:h-full after:w-full after:bg-[rgba(0,0,0,0.6)] after:top-0 after:left-0">
+          <div className="relative after:absolute after:content-[''] after:h-full after:w-full after:bg-[rgba(0,0,0,0.6)] after:top-0 after:left-0">
             <img src={img} alt="" className='w-full h-full' />
             <div className='absolute top-[30%] left-[30%] -translate-x-10 md:-translate-x-8 -translate-y-10 md:-translate-y-14 z-[2]'>
               <p className='pb-6 text-white text-[25px] md:text-[19px] lg:text-[25px] font-bold font-pops'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
